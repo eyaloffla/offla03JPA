@@ -1,0 +1,28 @@
+package com.offla.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="\"appfr1\"")
+public class Appfr1 implements Serializable {
+	
+	
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	private Integer lkp;
+	
+
+	public Integer getLkp() {
+		return lkp;
+	}
+
+	public void setLkp(Integer lkp) {
+		this.lkp = lkp;
+	}
+
+}
