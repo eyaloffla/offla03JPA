@@ -14,15 +14,17 @@ public class Appfr1 implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private Integer lkp;
-	
+	private Long lkp;
 
-	public Integer getLkp() {
+	public Long getLkp() {
 		return lkp;
 	}
 
-	public void setLkp(Integer lkp) {
+	public void setLkp(Long lkp) {
 		this.lkp = lkp;
 	}
+	
+
+	
 
 }

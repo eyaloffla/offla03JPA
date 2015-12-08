@@ -6,6 +6,6 @@ import javax.ejb.Local;
 @Local
 public interface IAppfr1Service {
 	
-	boolean isPersonInDB(Integer id);
+	boolean isPersonInDB(long id);
 
 }

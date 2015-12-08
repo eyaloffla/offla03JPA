@@ -17,7 +17,7 @@ public class Appfr1Bean implements IAppfr1Service{
 
 
 	@Override
-	public boolean isPersonInDB(Integer id) {
+	public boolean isPersonInDB(long id) {
 		boolean result = false;
 		Appfr1 a = getAppfr1ById(id);
 		if(a != null){
@@ -27,9 +27,9 @@ public class Appfr1Bean implements IAppfr1Service{
 		return result;
 	}
 	
-    private Appfr1 getAppfr1ById(Integer id) {
-		
-		return entityManager.find(Appfr1.class, id);
+    private Appfr1 getAppfr1ById(long id) {
+    	
+    	return entityManager.find(Appfr1.class, id);
 	}
 
 }
