@@ -9,6 +9,7 @@
 	<class>com.offla.entities.CellphoneStat</class>
 	<class>com.offla.entities.GoogleIds</class>
 	<class>com.offla.entities.Test</class>
+	<class>com.offla.entities.IPWhite</class>
 	<exclude-unlisted-classes>false</exclude-unlisted-classes>
 	
 	    <properties> 
